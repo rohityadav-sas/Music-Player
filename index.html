@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Assets/music-solid.svg" type="image/svg+xml">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="player">
+        <div class="playlist">
+        </div>
+        <i id="playlist" class="fa-solid fa-list"></i>
+        <div class="title"></div>
+        <div class="artist"></div>
+        <div class="thumbnail"></div>
+        <div class="progress">
+            <div>
+                <span id="current_time"></span>
+                <span id="total_duration"></span>
+            </div>
+            <input type="range" value="0" id="prg">
+        </div>
+        <div class="controls">
+            <i class="fa-solid fa-backward fa-xl" id="previous"></i>
+            <i class="fa-solid fa-circle-play fa-2xl" id="play_pause"></i>
+            <i class="fa-solid fa-forward fa-xl" id="next"></i>
+        </div>
+    </div>
+    <h2><span>Music Player By Rohit</span> <sup
+            style="font-family: Verdana, Geneva, Tahoma, sans-serif; opacity: 0.8;">&copy;</sup>
+    </h2>
+</body>
+
+<script src='https://kit.fontawesome.com/8e5e768940.js' crossorigin='anonymous'></script>
+
+</html>
