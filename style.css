@@ -91,6 +91,10 @@ h2 span {
     opacity: 0.6;
 }
 
+h2 {
+    user-select: none;
+}
+
 #playlist {
     position: absolute;
     top: 20px;
