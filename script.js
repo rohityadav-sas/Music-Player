@@ -208,13 +208,14 @@ playlist.addEventListener('click', () => {
 })
 
 window.addEventListener('click', (e) => {
-    if (e.target !== playlist) {
+    if (e.target !== playlist && e.target !== previous && e.target !== next && e.target !== play_pause && !e.target.classList.contains('songsList') && e.target !== progress) {
         playlistbox.classList.remove('show');
     }
 })
 
 songs.forEach((item, index) => {
     let newdiv = document.createElement('div');
+    newdiv.classList.add('songsList');
     newdiv.innerText = (index + 1) + '.' + ' ' + item.title;
     playlistbox.appendChild(newdiv);
 })
@@ -227,3 +228,33 @@ function setColour() {
     tempitem[songIndex].classList.add('currentplaying');
     cplaying = document.querySelector('.currentplaying');
 }
+
+function playOnClick() {
+    let playlistItems = document.querySelectorAll('.playlist div');
+    playlistItems.forEach(e => {
+        e.style.cursor = 'pointer';
+        e.addEventListener('mouseover', () => {
+            e.style.opacity = '0.7';
+
+        });
+        e.addEventListener('mouseleave', () => {
+            e.style.opacity = '1';
+
+        });
+        e.addEventListener('click', () => {
+            progress.value = '0';
+            audio.pause();
+            songIndex = parseInt(e.innerText.split('.')[0]) - 1;
+            audio = new Audio(songs[songIndex].path);
+            console.log(songIndex);
+            audio.play();
+            setThumbnail();
+            setTitle();
+            setArtist();
+            setTotalDuration();
+            setColour();
+            play_pause.classList.add('fa-circle-pause');
+        })
+    })
+}
+playOnClick();
