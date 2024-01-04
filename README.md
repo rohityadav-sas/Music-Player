@@ -26,7 +26,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 1. Clone the repository:
-   git clone https://github.com/your-username/music-player.git
+   git clone https://github.com/rohityadav-sas/Music-Player
 
 2. Open the project folder in your code editor.
 
