@@ -139,8 +139,9 @@ h2 {
     animation: shine 1s linear infinite;
 }
 
-#current_time + #total_duration {
-    letter-spacing:0.2em;
+#current_time,
+#total_duration {
+    letter-spacing: 0.1em;
 }
 
 
