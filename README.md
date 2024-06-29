@@ -50,5 +50,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 Icons provided by FontAwesome.
-Song thumbnails sourced from Assets/Thumbnails.
-Songs sourced from Assets/Songs.
+Song thumbnails sourced from assets/thumbnails.
+Songs sourced from assets/songs.
