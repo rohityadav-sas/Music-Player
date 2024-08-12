@@ -25,10 +25,7 @@ A simple web-based music player with a clean and responsive design. This project
    ```bash
    git clone https://github.com/rohityadav-sas/Music-Player
    ```
-
-3. Open the project folder in your code editor.
-
-4. Open index.html in your web browser.
+2. Open index.html in your web browser.
 
 ## Usage
 1. Open the index.html file in a web browser.
