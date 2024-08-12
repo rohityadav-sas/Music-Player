@@ -5,11 +5,10 @@ A simple web-based music player with a clean and responsive design. This project
 ## Table of Contents
 - [Preview](#preview)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Contributing](#contributing)
 
 ## Preview
 ![preview.png](./assets/preview.png?raw=true)
@@ -20,13 +19,6 @@ A simple web-based music player with a clean and responsive design. This project
 - Dynamic playlist with song details.
 - Responsive design for various screen sizes.
 - Visually appealing UI with rotating album art.
-
-## Getting Started
-Follow these instructions to get a copy of the project up and running on your local machine.
-
-### Prerequisites
-- A modern web browser
-- Code editor (e.g., Visual Studio Code, Sublime Text)
 
 ### Installation
 1. Clone the repository:
@@ -47,9 +39,9 @@ Follow these instructions to get a copy of the project up and running on your lo
 6. Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
-This project is licensed under the MIT License.
 
-## Acknowledgments
-Icons provided by FontAwesome.
-Song thumbnails sourced from assets/thumbnails.
-Songs sourced from assets/songs.
+This project is licensed under the ISC License. See the [LICENSE](./LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
