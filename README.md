@@ -32,8 +32,6 @@ A simple web-based music player with a clean and responsive design. This project
 2. Click on the play icon to start playback.
 3. Use the next and previous icons to navigate between songs.
 4. Check the playlist for the list of available songs.
-5. Contributing
-6. Contributions are welcome! Feel free to open issues or submit pull requests.
 
 ## License
 
